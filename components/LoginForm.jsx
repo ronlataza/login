@@ -5,6 +5,9 @@ export default function LoginForm(){
             <form className="flex flex-col gap-3">
             <input type ="text" placeholder="Email"></input>
             <input type ="password" placeholder="password"></input>
+            <button className="bg-blue-500 text-white font-bold cursor-pointer px-6 py-2">
+                Login</button>
+                
         </form>
         </div>
        
